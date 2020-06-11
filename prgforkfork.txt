@@ -1,0 +1,14 @@
+// RULES
+// arithmetic or comparison stuff: spaces between operands, max 2 operands at once
+// if(exp) then{stmt;stmt} else{stmt;stmt}
+// while(exp) {stmt;stmt;...}
+
+
+fork(fork(print(3));print(2))
+print(1)
+
+//a=3
+//b=3
+//while(a > 0) {while(b > 0) {b=b - 1};a=a -1;print(a)}
+
+//fork(fork(fork(print(4));print(3));print(2)) // not working :(

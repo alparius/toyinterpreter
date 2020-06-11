@@ -1,0 +1,14 @@
+// RULES
+// arithmetic or comparison stuff: spaces between operands, max 2 operands at once
+// if(exp) then{stmt;stmt} else{stmt;stmt}
+// while(exp) {stmt;stmt;...}
+
+v=10
+new(a,22)
+fork(wH(a,30);v=32;print(v);print(rH(a)))
+print(v)
+print(rH(a))
+
+
+//print(v)
+//print(v)

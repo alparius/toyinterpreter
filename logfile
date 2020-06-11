@@ -1,0 +1,2737 @@
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	a=2+3*5
+	b=a+1
+	print(b)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	b=a+1
+	print(b)
+
+SymTable:
+	a --> 17
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(b)
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 17
+	b --> 18
+
+Heap:
+
+Out:
+	18
+
+FileTable:

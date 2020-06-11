@@ -1,0 +1,63 @@
+// RULES
+// arithmetic or comparison stuff: spaces between operands, max 2 operands at once
+// if(exp) then{stmt;stmt} else{stmt;stmt}
+// while(exp) {stmt;stmt;...}
+
+
+// conditional statement
+printmsg(if statement:)
+a=11 * 5 // a=11 / 0 for EXCEPTION division by zero
+if(a - 55) then{printmsg(ERROR)} else{printmsg(good);printmsg(indeed);printmsg(such);printmsg(compound)}
+
+
+// file stuff
+printmsg(\nfiles:)
+openRFile(var_f,test.in)
+// openRFile(var_f,test.in) // for EXCEPTION file already open
+readFile(var_f,var_c) // readFile(var_f + 2,var_c) for EXCEPTION file doesnt exist
+print(var_c)
+if(var_c) then{readFile(var_f,var_c);print(var_c)} else{print(0)}
+// check that file is closed
+
+
+// heap stuff
+printmsg(\nheap:)
+k=10
+new(k,20)
+new(j,22)
+printmsg(k's location:)
+print(k) // print(anything) for EXCEPTION invalid variable name
+printmsg(k's value from the heap:)
+print(rH(k)) // print(rH(a)) for EXCEPTION read access violation
+wH(j,33)
+printmsg(j's modified value:)
+print(rH(j) + 0) // print(rH(j) ^ 0) for EXCEPTION invalid operator
+j=0 // check if heap is freed
+
+
+// while loop
+printmsg(\nwhile loop:)
+v=99
+while(v - 95) {print(v);v=v - 1}
+
+// booleans
+printmsg(\nbooleans:)
+a=5
+b=0
+print(1 < 5)
+print(5 == a)
+print(0 != b)
+print(b < a)
+print(a >= b)
+print(1 <= 1)
+
+g=11 == 1
+print(g)
+
+if(1 == 1) then{print(66)} else{print(66)}
+
+
+
+
+
+

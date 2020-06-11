@@ -1,0 +1,361 @@
+
+
+
+----- thread: 1
+
+ExeStack:
+	v=10
+	new(a,22)
+	Fork(wH(a,30); v=32; print(v); print(rH(a)))
+	print(v)
+	print(rH(a))
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	v=10
+	new(a,22)
+	Fork(wH(a,30); v=32; print(v); print(rH(a)))
+	print(v)
+	print(rH(a))
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	new(a,22)
+	Fork(wH(a,30); v=32; print(v); print(rH(a)))
+	print(v)
+	print(rH(a))
+
+SymTable:
+	v --> 10
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	new(a,22)
+	Fork(wH(a,30); v=32; print(v); print(rH(a)))
+	print(v)
+	print(rH(a))
+
+SymTable:
+	v --> 10
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	Fork(wH(a,30); v=32; print(v); print(rH(a)))
+	print(v)
+	print(rH(a))
+
+SymTable:
+	a --> 1
+	v --> 10
+
+Heap:
+	1 --> 22
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	Fork(wH(a,30); v=32; print(v); print(rH(a)))
+	print(v)
+	print(rH(a))
+
+SymTable:
+	a --> 1
+	v --> 10
+
+Heap:
+	1 --> 22
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(v)
+	print(rH(a))
+
+SymTable:
+	a --> 1
+	v --> 10
+
+Heap:
+	1 --> 22
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 2
+
+ExeStack:
+	wH(a,30)
+	v=32
+	print(v)
+	print(rH(a))
+
+SymTable:
+	a --> 1
+	v --> 10
+
+Heap:
+	1 --> 22
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(v)
+	print(rH(a))
+
+SymTable:
+	a --> 1
+	v --> 10
+
+Heap:
+	1 --> 22
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 2
+
+ExeStack:
+	wH(a,30)
+	v=32
+	print(v)
+	print(rH(a))
+
+SymTable:
+	a --> 1
+	v --> 10
+
+Heap:
+	1 --> 22
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+	print(rH(a))
+
+SymTable:
+	a --> 1
+	v --> 10
+
+Heap:
+	1 --> 30
+
+Out:
+	10
+
+FileTable:
+
+
+
+----- thread: 2
+
+ExeStack:
+	v=32
+	print(v)
+	print(rH(a))
+
+SymTable:
+	a --> 1
+	v --> 10
+
+Heap:
+	1 --> 30
+
+Out:
+	10
+
+FileTable:
+
+
+
+----- thread: 1
+
+ExeStack:
+
+SymTable:
+	a --> 1
+	v --> 10
+
+Heap:
+	1 --> 30
+
+Out:
+	10
+	30
+
+FileTable:
+
+
+
+----- thread: 2
+
+ExeStack:
+	v=32
+	print(v)
+	print(rH(a))
+
+SymTable:
+	a --> 1
+	v --> 10
+
+Heap:
+	1 --> 30
+
+Out:
+	10
+	30
+
+FileTable:
+
+
+
+----- thread: 2
+
+ExeStack:
+	print(v)
+	print(rH(a))
+
+SymTable:
+	a --> 1
+	v --> 32
+
+Heap:
+	1 --> 30
+
+Out:
+	10
+	30
+
+FileTable:
+
+
+
+----- thread: 2
+
+ExeStack:
+	print(v)
+	print(rH(a))
+
+SymTable:
+	a --> 1
+	v --> 32
+
+Heap:
+	1 --> 30
+
+Out:
+	10
+	30
+
+FileTable:
+
+
+
+----- thread: 2
+
+ExeStack:
+	print(rH(a))
+
+SymTable:
+	a --> 1
+	v --> 32
+
+Heap:
+	1 --> 30
+
+Out:
+	10
+	30
+	32
+
+FileTable:
+
+
+
+----- thread: 2
+
+ExeStack:
+
+SymTable:
+	a --> 1
+	v --> 32
+
+Heap:
+	1 --> 30
+
+Out:
+	10
+	30
+	32
+	30
+
+FileTable:

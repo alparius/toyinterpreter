@@ -1,0 +1,161 @@
+
+
+
+----- thread: 3
+
+ExeStack:
+	Fork(Fork(print(3)); print(2))
+	print(1)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 3
+
+ExeStack:
+	Fork(Fork(print(3)); print(2))
+	print(1)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 3
+
+ExeStack:
+	print(1)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 4
+
+ExeStack:
+	Fork(print(3))
+	print(2)
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 3
+
+ExeStack:
+
+SymTable:
+
+Heap:
+
+Out:
+	1
+
+FileTable:
+
+
+
+----- thread: 4
+
+ExeStack:
+	Fork(print(3))
+	print(2)
+
+SymTable:
+
+Heap:
+
+Out:
+	1
+
+FileTable:
+
+
+
+----- thread: 4
+
+ExeStack:
+	print(2)
+
+SymTable:
+
+Heap:
+
+Out:
+	1
+
+FileTable:
+
+
+
+----- thread: 5
+
+ExeStack:
+	print(3)
+
+SymTable:
+
+Heap:
+
+Out:
+	1
+
+FileTable:
+
+
+
+----- thread: 4
+
+ExeStack:
+
+SymTable:
+
+Heap:
+
+Out:
+	1
+	2
+	3
+
+FileTable:
+
+
+
+----- thread: 5
+
+ExeStack:
+
+SymTable:
+
+Heap:
+
+Out:
+	1
+	2
+	3
+
+FileTable:

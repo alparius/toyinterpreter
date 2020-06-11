@@ -1,0 +1,4303 @@
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(if statement:)
+	a=11*5
+	IF(a-55) THEN(printmsg(ERROR)) ELSE(printmsg(good); printmsg(indeed); printmsg(such); printmsg(compound))
+	printmsg(\nfiles:)
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(if statement:)
+	a=11*5
+	IF(a-55) THEN(printmsg(ERROR)) ELSE(printmsg(good); printmsg(indeed); printmsg(such); printmsg(compound))
+	printmsg(\nfiles:)
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	a=11*5
+	IF(a-55) THEN(printmsg(ERROR)) ELSE(printmsg(good); printmsg(indeed); printmsg(such); printmsg(compound))
+	printmsg(\nfiles:)
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	a=11*5
+	IF(a-55) THEN(printmsg(ERROR)) ELSE(printmsg(good); printmsg(indeed); printmsg(such); printmsg(compound))
+	printmsg(\nfiles:)
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	IF(a-55) THEN(printmsg(ERROR)) ELSE(printmsg(good); printmsg(indeed); printmsg(such); printmsg(compound))
+	printmsg(\nfiles:)
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	IF(a-55) THEN(printmsg(ERROR)) ELSE(printmsg(good); printmsg(indeed); printmsg(such); printmsg(compound))
+	printmsg(\nfiles:)
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(good)
+	printmsg(indeed)
+	printmsg(such)
+	printmsg(compound)
+	printmsg(\nfiles:)
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(good)
+	printmsg(indeed)
+	printmsg(such)
+	printmsg(compound)
+	printmsg(\nfiles:)
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(indeed)
+	printmsg(such)
+	printmsg(compound)
+	printmsg(\nfiles:)
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(indeed)
+	printmsg(such)
+	printmsg(compound)
+	printmsg(\nfiles:)
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(such)
+	printmsg(compound)
+	printmsg(\nfiles:)
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(such)
+	printmsg(compound)
+	printmsg(\nfiles:)
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(compound)
+	printmsg(\nfiles:)
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(\nfiles:)
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(\nfiles:)
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	openRFile(var_f,test.in)
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+----- thread: 6
+
+ExeStack:
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+
+Heap:
+
+Out:
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	readFile(var_f,var_c)
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+
+Heap:
+
+Out:
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	var_c --> 15
+
+Heap:
+
+Out:
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(var_c)
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	var_c --> 15
+
+Heap:
+
+Out:
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	var_c --> 15
+
+Heap:
+
+Out:
+	15
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	IF(var_c) THEN(readFile(var_f,var_c); print(var_c)) ELSE(print(0))
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	var_c --> 15
+
+Heap:
+
+Out:
+	15
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	readFile(var_f,var_c)
+	print(var_c)
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	var_c --> 15
+
+Heap:
+
+Out:
+	15
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	readFile(var_f,var_c)
+	print(var_c)
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	var_c --> 15
+
+Heap:
+
+Out:
+	15
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(var_c)
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	var_c --> 50
+
+Heap:
+
+Out:
+	15
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	var_c --> 50
+
+Heap:
+
+Out:
+	15
+	50
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(\nheap:)
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	var_c --> 50
+
+Heap:
+
+Out:
+	15
+	50
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	var_c --> 50
+
+Heap:
+
+Out:
+	15
+	50
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	k=10
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	var_c --> 50
+
+Heap:
+
+Out:
+	15
+	50
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	k --> 10
+	var_c --> 50
+
+Heap:
+
+Out:
+	15
+	50
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	new(k,20)
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	k --> 10
+	var_c --> 50
+
+Heap:
+
+Out:
+	15
+	50
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	new(j,22)
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 2
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 22
+
+Out:
+	15
+	50
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(k's location:)
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 2
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 22
+
+Out:
+	15
+	50
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 2
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 22
+
+Out:
+	15
+	50
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(k)
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 2
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 22
+
+Out:
+	15
+	50
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 2
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 22
+
+Out:
+	15
+	50
+	1
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(k's value from the heap:)
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 2
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 22
+
+Out:
+	15
+	50
+	1
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 2
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 22
+
+Out:
+	15
+	50
+	1
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(rH(k))
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 2
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 22
+
+Out:
+	15
+	50
+	1
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 2
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 22
+
+Out:
+	15
+	50
+	1
+	20
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	wH(j,33)
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 2
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 22
+
+Out:
+	15
+	50
+	1
+	20
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 2
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 33
+
+Out:
+	15
+	50
+	1
+	20
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(j's modified value:)
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 2
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 33
+
+Out:
+	15
+	50
+	1
+	20
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 2
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 33
+
+Out:
+	15
+	50
+	1
+	20
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(rH(j)+0)
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 2
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 33
+
+Out:
+	15
+	50
+	1
+	20
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 2
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 33
+
+Out:
+	15
+	50
+	1
+	20
+	33
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	j=0
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 2
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 33
+
+Out:
+	15
+	50
+	1
+	20
+	33
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 0
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+	2 --> 33
+
+Out:
+	15
+	50
+	1
+	20
+	33
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(\nwhile loop:)
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 0
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 0
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	v=99
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	j --> 0
+	k --> 1
+	var_c --> 50
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 99
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 99
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(v)
+	v=v-1
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 99
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(v)
+	v=v-1
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 99
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	v=v-1
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 99
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 98
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(v)
+	v=v-1
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 98
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(v)
+	v=v-1
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 98
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	v=v-1
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 98
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 97
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(v)
+	v=v-1
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 97
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(v)
+	v=v-1
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 97
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	v=v-1
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 97
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 96
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(v)
+	v=v-1
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 96
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(v)
+	v=v-1
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 96
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	v=v-1
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 96
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	while(v-95) {print(v); v=v-1}
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	printmsg(\nbooleans:)
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	a=5
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 55
+	var_f --> 1
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	b=0
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(1<5)
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(5==a)
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+	1
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(0!=b)
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+	1
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+	1
+	0
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(b<a)
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+	1
+	0
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+	1
+	0
+	1
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(a>=b)
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+	1
+	0
+	1
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+	1
+	0
+	1
+	1
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(1<=1)
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+	1
+	0
+	1
+	1
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+	1
+	0
+	1
+	1
+	1
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	g=11==1
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+	1
+	0
+	1
+	1
+	1
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	g --> 0
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+	1
+	0
+	1
+	1
+	1
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(g)
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	g --> 0
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+	1
+	0
+	1
+	1
+	1
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	IF(1==1) THEN(print(66)) ELSE(print(66))
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	g --> 0
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+	1
+	0
+	1
+	1
+	1
+	0
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+	print(66)
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	g --> 0
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+	1
+	0
+	1
+	1
+	1
+	0
+
+FileTable:
+	1 --> test.in
+
+
+
+----- thread: 6
+
+ExeStack:
+
+SymTable:
+	a --> 5
+	var_f --> 1
+	b --> 0
+	v --> 95
+	var_c --> 50
+	g --> 0
+	j --> 0
+	k --> 1
+
+Heap:
+	1 --> 20
+
+Out:
+	15
+	50
+	1
+	20
+	33
+	99
+	98
+	97
+	96
+	1
+	1
+	0
+	1
+	1
+	1
+	0
+	66
+
+FileTable:
+	1 --> test.in
